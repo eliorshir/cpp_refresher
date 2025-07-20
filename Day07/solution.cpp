@@ -17,7 +17,7 @@ double calcAverage(int* arr, int size) {
     for (int i = 0; i < size; i++) {
         sum += arr[i]; // הוסף את הציון הנוכחי
     }
-    return sum/size; // חישוב ממוצע
+    return static_cast<double>(sum) / size; // חישוב ממוצע
 }
 
 // פונקציה למציאת ציון מקסימלי
